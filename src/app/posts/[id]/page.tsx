@@ -1,6 +1,6 @@
 const Post = async ({ params }: { params: { id: string } }
 ) => {
-    await new Promise((resolve) => setTimeout(resolve, 600));
+    await new Promise((resolve) => setTimeout(resolve, 2000));
     const response = await fetch(`https://dummyjson.com/posts/${params.id}`);
     const post = await response.json();
     return (

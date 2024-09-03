@@ -13,7 +13,8 @@ const CreatePost = () => {
                     placeholder="Title"
                     name="title"
                     required
-                    className="w-full mt-1 p-2 border border-zinc-300 rounded-md" />
+                    className="w-full mt-1 p-2 border border-zinc-300 rounded-md focus:border-2 focus:border-blue-300 
+                     focus:outline-none" />
 
 
 
@@ -21,10 +22,13 @@ const CreatePost = () => {
                     placeholder="Content"
                     name="content"
                     required
-                    className="w-full mt-1 p-2 border border-zinc-300 rounded-md" rows={5}>
+                    className="w-full mt-1 p-2 border
+                     border-zinc-300 rounded-md
+                     focus:border-2 focus:border-blue-300 
+                     focus:outline-none" rows={5}>
                 </textarea>
 
-                <button className="w-full p-2 bg-gray-800 text-white rounded-md">Create Post</button>
+                <button className="w-full p-2 bg-blue-600 text-white rounded-md">Create Post</button>
             </form>
 
         </main>

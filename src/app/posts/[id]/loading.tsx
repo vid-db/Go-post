@@ -1,23 +1,14 @@
-
-import { quantum } from 'ldrs'
-
+import Ldr from "@/components/ldr"
 
 const Loading = () => {
-    quantum.register()
     return (
-
         <div className="mx-auto my-auto text-xl">
-            <l-quantum
-                size="45"
-                speed="1.75"
-                color="black"
-            ></l-quantum>
-            Loading...
+            <div>
+                <Ldr />
+            </div>
+            <p className="mt-3">Loading...</p>
         </div>
     )
 }
 
 export default Loading
-
-
-
