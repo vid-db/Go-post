@@ -28,7 +28,7 @@ const CreatePost = () => {
                      focus:outline-none" rows={5}>
                 </textarea>
 
-                <button className="w-full p-2 bg-blue-600 text-white rounded-md">Create Post</button>
+                <button className="w-full  bg-gray-800  py-2  rounded-md text-gray-300">Create Post</button>
             </form>
 
         </main>
