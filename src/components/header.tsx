@@ -25,7 +25,7 @@ const Header = () => {
     ]
 
     return (
-        <div className="flex justify-between items-center py-6 px-7 border-b">
+        <div className="flex justify-between items-center py-6 px-7 border-b-2 shadow-sm bg-zinc-[70]">
             <Link href='/' >
                 <Image
                     src="/DB.jpg"
