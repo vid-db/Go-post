@@ -9,10 +9,10 @@ async function PostList() {
         <ul className="grid grid-cols-4 gap-4">
             {posts.map((post: any) => (
                 <li key={post.id}
-                    className="relative bg-gray-50 p-4 border border-gray-300  rounded shadow-md hover:scale-105 transform transition-transform duration-300 ">
+                    className="relative bg-gray-50 p-4 border border-gray-300  rounded-md drop-shadow-lg hover:scale-105 transform transition-transform duration-300 ">
                     <Link href={`/posts/${post.id}`}
-                        className="block w-full h-full text-gray-600">
-                        Title:{post.title}
+                        className="block w-full h-full text-gray-600 text-lg font-medium">
+                        Title:&nbsp;&nbsp;{post.title}
                     </Link>
                 </li>
             ))}

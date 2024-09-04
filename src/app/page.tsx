@@ -1,3 +1,4 @@
+import LandingSignin from "@/components/landingSignin";
 
 export default function Home() {
   return (
@@ -8,6 +9,9 @@ export default function Home() {
       <p className="max-w-[750px] mx-auto leading-8 text-center text-xl font-light drop-shadow-lg">
         Join a community of free thinkers, share your random thoughts,<br /> and see what others are posting
       </p>
+      <div className="max-w-[750px] mx-auto mt-4 flex justify-center">
+        <LandingSignin />
+      </div>
 
     </main >
   );

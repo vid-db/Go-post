@@ -28,7 +28,7 @@ export default function RootLayout({
         />
         <link rel="icon" href="/DB.jpg" />
       </head>
-      <body className={`${inter.className} bg-zinc-200 text-zinc-900`}>
+      <body className={`${inter.className} bg-zinc-100 text-zinc-900`}>
         <Container>
           <Header />
           {children}

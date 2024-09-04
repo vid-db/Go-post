@@ -46,7 +46,7 @@ const Header = () => {
                 </ul>
                 {
                     pathname === '/createPost' ?
-                        <button className="bg-gray-300 px-3 py-1 rounded-md">
+                        <button className="bg-gray-800 px-3 py-1  rounded-md text-gray-300 ">
                             <LogoutLink>
                                 Logout
                             </LogoutLink>
