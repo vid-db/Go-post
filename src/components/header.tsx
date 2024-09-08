@@ -1,6 +1,5 @@
 "use client"; // This marks the component as a Client Component
 
-import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -44,14 +43,14 @@ const Header = () => {
                         </li>
                     ))}
                 </ul>
-                {
+                {/* {
                     pathname === '/createPost' ?
                         <button className="bg-gray-800 px-3 py-1  rounded-md text-gray-300 ">
                             <LogoutLink>
                                 Logout
                             </LogoutLink>
                         </button> : null
-                }
+                } */}
             </nav>
 
         </div>
