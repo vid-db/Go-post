@@ -1,4 +1,3 @@
-import LandingSignin from "@/components/landingSignin";
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
         Join a community of free thinkers, share your random thoughts,<br /> and see what others are posting
       </p>
       <div className="max-w-[750px] mx-auto mt-4 flex justify-center">
-        <LandingSignin />
+        {/* <LandingSignin /> */}
       </div>
 
     </main >
