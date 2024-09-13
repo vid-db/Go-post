@@ -1,4 +1,5 @@
 import prisma from "@/lib/db";
+import { notFound } from "next/navigation";
 
 const Post = async ({ params }: { params: { id: string } }
 ) => {
@@ -10,7 +11,7 @@ const Post = async ({ params }: { params: { id: string } }
     });
 
     if (!post) {
-        return <h1>Post not found</h1>
+        notFound();
     }
     return (
         <main className="text-center pt-24 px-7 mb-4">
