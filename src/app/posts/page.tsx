@@ -1,5 +1,6 @@
 import PostList from "@/components/postList";
 import { Suspense } from "react";
+import Loading from "./[id]/loading";
 
 const AllPosts = async () => {
     return (
@@ -7,7 +8,7 @@ const AllPosts = async () => {
             <h1 className="text-4xl font-bold md:text-5xl mb-10">
                 Random posts
             </h1>
-            <Suspense fallback="ssdfsdf">
+            <Suspense fallback={<Loading />}>
                 <PostList />
             </Suspense>
         </main>
