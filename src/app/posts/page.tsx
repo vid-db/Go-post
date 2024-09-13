@@ -1,6 +1,7 @@
 import PostList from "@/components/postList";
 import { Suspense } from "react";
-import Loading from "./[id]/loading";
+import Loading from "./loading";
+
 
 const AllPosts = async () => {
     return (
