@@ -19,7 +19,7 @@ export async function createPost(formData: FormData) {
         data: {
             title,
             content,
-        }
+        },
     });
 
     revalidatePath("/posts");
