@@ -7,7 +7,7 @@ async function PostList() {
 
     return (
         <ul className="grid grid-cols-4 gap-4">
-            {posts.map((post: any) => (
+            {posts.map((post) => (
                 <li key={post.id}
                     className="relative bg-gray-50 p-4 border border-gray-300  rounded-md drop-shadow-lg hover:scale-105 transform transition-transform duration-300 ">
                     <Link href={`/posts/${post.id}`}
